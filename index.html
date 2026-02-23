@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <!--
   ╔══════════════════════════════════════════════════════════════════╗
-  ║         DEGENS N' COFFEE — ALLIANCE LOTTERY SYSTEM              ║
-  ║                        index.html                               ║
+  ║         DEGENS N' COFFEE — ALLIANCE LOTTERY SYSTEM               ║
+  ║                        index.html                                ║
   ╠══════════════════════════════════════════════════════════════════╣
-  ║  WHAT THIS FILE IS:                                             ║
-  ║  A single-file web app for running weekly Discord community     ║
-  ║  lotteries. Everything — styles, layout, and logic — lives      ║
-  ║  in this one HTML file. No build tools or server required.      ║
-  ║                                                                 ║
-  ║  HOW IT WORKS:                                                  ║
-  ║  1. Connects to a GitHub repo via the GitHub Contents API       ║
-  ║  2. Reads participants.json (list of eligible names)            ║
-  ║  3. Reads history.json (past round winner records)              ║
-  ║  4. Runs a Fisher-Yates shuffle to pick fair random winners     ║
-  ║  5. Writes results back to GitHub automatically                 ║
-  ║                                                                 ║
-  ║  FILES IN THE REPO:                                             ║
-  ║    index.html       → This file (the full app)                  ║
-  ║    participants.json → Array of participant name strings        ║
-  ║    history.json     → Array of past round result objects        ║
-  ║                                                                 ║
-  ║  SETUP:                                                         ║
-  ║  Click ⚙ Settings and enter:                                    ║
-  ║    - GitHub Username  (e.g. mfisher30)                          ║
-  ║    - Repository Name  (e.g. dnc-lottery)                        ║
-  ║    - Branch           (default: main)                           ║
-  ║    - Personal Access Token with Contents: Read & Write          ║
-  ║                                                                 ║
-  ║  TO EDIT PRIZE TIERS OR DEFAULTS:                               ║
-  ║  Search for "TIER DEFINITIONS" in the <script> section          ║
-  ║  and edit the TIERS array (id, icon, label, qty).               ║
+  ║  WHAT THIS FILE IS:                                              ║
+  ║  A single-file web app for running weekly Discord community      ║ 
+  ║  lotteries. Everything — styles, layout, and logic — lives       ║
+  ║  in this one HTML file. No build tools or server required.       ║
+  ║                                                                  ║
+  ║  HOW IT WORKS:                                                   ║
+  ║  1. Connects to a GitHub repo via the GitHub Contents API        ║
+  ║  2. Reads participants.json (list of eligible names)             ║
+  ║  3. Reads history.json (past round winner records)               ║
+  ║  4. Runs a Fisher-Yates shuffle to pick fair random winners      ║
+  ║  5. Writes results back to GitHub automatically                  ║
+  ║                                                                  ║
+  ║  FILES IN THE REPO:                                              ║
+  ║    index.html       → This file (the full app)                   ║
+  ║    participants.json → Array of participant name strings         ║
+  ║    history.json     → Array of past round result objects         ║
+  ║                                                                  ║
+  ║  SETUP:                                                          ║
+  ║  Click Settings and enter:                                       ║
+  ║    - GitHub Username  (e.g. mfish82)                             ║
+  ║    - Repository Name  (e.g. dnc-lottery)                         ║
+  ║    - Branch           (default: main)                            ║
+  ║    - Personal Access Token with Contents: Read & Write           ║
+  ║                                                                  ║
+  ║  TO EDIT PRIZE TIERS OR DEFAULTS:                                ║
+  ║  Search for "TIER DEFINITIONS" in the <script> section           ║
+  ║  and edit the TIERS array (id, icon, label, qty).                ║
   ╚══════════════════════════════════════════════════════════════════╝
 -->
 <html lang="en">
