@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "round": 1,
+    "date": "Feb 26, 2026",
+    "entries": [
+      {
+        "name": "Quitebusy",
+        "prize": "Legendary",
+        "tierClass": "legendary"
+      },
+      {
+        "name": "Felis",
+        "prize": "Epic",
+        "tierClass": "epic"
+      },
+      {
+        "name": "eneya",
+        "prize": "Epic",
+        "tierClass": "epic"
+      },
+      {
+        "name": "vovankrm",
+        "prize": "Elite",
+        "tierClass": "elite"
+      },
+      {
+        "name": "Looking4U",
+        "prize": "Elite",
+        "tierClass": "elite"
+      },
+      {
+        "name": "BabyJanee",
+        "prize": "Elite",
+        "tierClass": "elite"
+      },
+      {
+        "name": "NB Mr Pike",
+        "prize": "Elite",
+        "tierClass": "elite"
+      },
+      {
+        "name": "Summer Knight",
+        "prize": "Elite",
+        "tierClass": "elite"
+      },
+      {
+        "name": "Hamlord",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "ØG B O A H ØG",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "BabyAnanyaagwl",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "viiew",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "gollume",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "Pyto",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "Ascof",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "AnnuderScoob",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "Sleeping Evolet",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      },
+      {
+        "name": "Brandon64",
+        "prize": "Advanced",
+        "tierClass": "advanced"
+      }
+    ]
+  }
+]
